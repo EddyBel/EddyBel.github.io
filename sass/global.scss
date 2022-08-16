@@ -1,0 +1,35 @@
+// resets
+@import "./base/reset";
+// layouts
+@import "./layouts/animation";
+@import "./layouts/info.seccion";
+// Temas
+@import "./themes/dark";
+@import "./themes/light";
+@import "./layouts/cards";
+
+html {
+  overflow-x: hidden;
+}
+body {
+  background-image: radial-gradient(
+    circle 400px at 6.8% 8.3%,
+    rgba(255, 244, 169, 1) 0%,
+    rgba(255, 244, 234, 1) 100.2%
+  );
+}
+
+::-webkit-scrollbar {
+  background: #fff;
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #17202a;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}

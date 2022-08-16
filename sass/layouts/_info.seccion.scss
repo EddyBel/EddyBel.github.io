@@ -1,0 +1,57 @@
+@import "../utils/mixin";
+@import "../utils/vars";
+
+/* Imagen de usuario */
+.img-user {
+  @include rounded(50%);
+  @include size(150px, 150px);
+  @include transform(translateY(-90px));
+  object-fit: cover;
+  // cursor: pointer;
+}
+/* Nombre de usuario */
+.name-user {
+  @include text-gradient($color-gradient-1, #000);
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: $Raleway;
+}
+
+/* Cartas */
+.info-seccion {
+  @include size(100%, 100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.card-seccion {
+  @include flex(row, center, center, nowrap, 0px);
+  @include size(100%, 100%);
+}
+.card-user {
+  @include rounded(50px);
+  @include size(500px, 400px);
+  @include flex(column, flex-start, center, nowrap, 15px);
+  @include media(550px, 85%, 400px);
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 99999 !important;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+// Imagen de red sociales
+.img_social {
+  @include size(40px, 40px);
+  @include rounded(50%);
+  @include transition(200ms);
+  object-fit: cover;
+  &:hover {
+    @include transform(scale(1.2));
+  }
+}
+
+.container_social_seccion {
+  @include size(100%, auto);
+  @include flex(row, center, center, nowrap, 20px);
+  padding: 10px;
+}
