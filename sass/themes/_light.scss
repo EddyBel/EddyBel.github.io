@@ -1,9 +1,0 @@
-@import "../utils/vars";
-
-.app > .area {
-  background: #4e54c880;
-  background-image: linear-gradient(62deg, #8ec5fc57 0%, #e0c3fc5d 100%),
-    url($imagen-background-1);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
