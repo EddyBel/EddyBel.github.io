@@ -2,7 +2,7 @@ const cards = [{
     img: 'https://images.pexels.com/photos/5412270/pexels-photo-5412270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     title: 'Notas',
     description: 'Notas de estudio.',
-    direccion: ''
+    direccion: 'https://eddybel.github.io/Notebook/'
 
 }, {
     img: 'https://images.pexels.com/photos/6893376/pexels-photo-6893376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
